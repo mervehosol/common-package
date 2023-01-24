@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>io.github.mervehosol</groupId>
-	<artifactId>common-package</artifactId>
-	<version>0.0.9-SNAPSHOT</version>
-	<name>common-package</name>
+	<artifactId>common</artifactId>
+	<version>1.0.9-SNAPSHOT</version>
+	<name>common</name>
 	<description>Common Project</description>
 	<properties>
 		<java.version>17</java.version>
@@ -28,20 +28,19 @@
 			</exclusions>
 		</dependency>
 		<dependency>
+			<groupId>org.modelmapper</groupId>
+			<artifactId>modelmapper</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.modelmapper</groupId>
-			<artifactId>modelmapper</artifactId>
-			<version>3.0.0</version>
 		</dependency>
 	</dependencies>
 
